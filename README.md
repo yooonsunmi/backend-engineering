@@ -12,6 +12,8 @@
 - **Problem:** 유지보수가 어렵고 장애 추적이 불가능했던 PHP 모놀리식 레거시 환경
 - **Action:** Spring Boot 3.x, JPA, Querydsl 기반으로 아키텍처 재설계 및 도메인 중심 리뉴얼 수행
 - **Result:** 코드 응집도 향상 및 **긴급 장애 발생 빈도 80% 감소**
+> **🔗 관련 기술 포스팅**
+> - [PHP 레거시 시스템을 Spring Boot로 전환하며 고민했던 기록들](https://yoonsm45.tistory.com/23)
 
 #### 2️⃣ 데이터 정합성 보장 (Distributed Lock)
 - **Problem:** 금융 예치금 결제 및 선착순 로직에서 발생하는 동시성 이슈(Race Condition)
